@@ -1,3 +1,4 @@
+package EstruturaBásica;
 public class Carro {
     private String cor;
     private String modelo;

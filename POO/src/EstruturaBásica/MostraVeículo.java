@@ -1,3 +1,4 @@
+package EstruturaBásica;
 public class MostraVeículo {
     public static void main(String[] args) {
         // repare que no construtor da classe Carro, o mesmo se encontra sem parâmetros
