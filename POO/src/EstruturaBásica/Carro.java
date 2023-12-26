@@ -1,4 +1,5 @@
 package EstruturaBásica;
+
 public class Carro {
     private String cor;
     private String modelo;
@@ -6,16 +7,6 @@ public class Carro {
 
     // construtor vazio do meuCarro
     public Carro() {
-
-    }
-
-    // construtor do meuCarro2
-    public Carro(String cor, String modelo, int capacidadeTanque) {
-        // perceba aqui também que houve uma SOBRECARGA nos construtores pois foi
-        // utilizado o mesmo nome "Carro()", mas com parâmetros diferentes
-        this.cor = cor;
-        this.modelo = modelo;
-        this.capacidadeTanque = capacidadeTanque;
 
     }
 
@@ -41,6 +32,15 @@ public class Carro {
     }
 
     public void setCapacidadeTanque(int capacidadeTanque) {
+        this.capacidadeTanque = capacidadeTanque;
+    }
+
+    // construtor do meuCarro2
+    public Carro(String cor, String modelo, int capacidadeTanque) {
+        // perceba aqui também que houve uma SOBRECARGA nos construtores pois foi
+        // utilizado o mesmo método "Carro()", mas com parâmetros diferentes
+        this.cor = cor;
+        this.modelo = modelo;
         this.capacidadeTanque = capacidadeTanque;
     }
 
